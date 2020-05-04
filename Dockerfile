@@ -23,7 +23,7 @@ RUN go build -o echo .
 # 接下来创建一个小镜像
 FROM scratch
 
-# 从builder镜像中把/dist/app 拷贝到当前目录
+# 从builder镜像中把/build/echo 拷贝到当前目录
 COPY --from=builder /build/echo /
 COPY log.json /
 
