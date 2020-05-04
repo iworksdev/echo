@@ -1,0 +1,9 @@
+{
+  "logFile": "log/echo.log",
+  "logLevel": "info",
+  "logPort": "6666",
+  "maxSize": 100,
+  "consoleOutput": false,
+  "maxBackups": 1,
+  "maxAge": 15
+}
